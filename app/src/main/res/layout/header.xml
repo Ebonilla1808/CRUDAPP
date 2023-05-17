@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#165E57"
+    android:gravity="bottom"
+    android:padding="25dp"
+    android:layout_height="200dp"
+    >
+
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/principal_icono"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UTEC-Soft"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="UTEC-Soft-2023"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:textStyle="normal" />
+</LinearLayout>
